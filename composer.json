@@ -1,0 +1,23 @@
+{
+    "name": "andrevabo/yii2-url-shortener",
+    "description": "URL Shortener for Yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","url", "shortener"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "André Ribeiro",
+            "email": "andrevabo@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "*",
+        "linslin/yii2-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "andrevabo\\yii2\\urlshortener\\": ""
+        }
+    }
+}
